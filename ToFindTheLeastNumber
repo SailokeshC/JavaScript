@@ -10,7 +10,7 @@
 </body>
 </html>
 
-//JavaScript to finding the greatest number
+//JavaScript to find the least number
 var a;
 var b;
 a=10;
