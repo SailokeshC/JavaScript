@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Type Of</h1>
+  <script src="typeof.js></script> //Linking the javascript file named as 'typeof.js'
+</body>
+</html>
+
+//JavaScript to finding the Type Of of a number
+var a;
+console.log(typeof a); 
+a=2;
+console.log(typeof a);
+a='hi'*'how';
+console.log(typeof a);
+a=true;
+console.log(typeof a);
+a=' ';
+console.log(typeof a);
+a={};
+console.log(typeof a);
+a=null;
+console.log(typeof a);
+a=[];
+console.log(typeof a);
+a=function(){}
+console.log(typeof a);
+
+Output:
+undefined
+number
+number
+boolean
+string
+object
+object
+object
+function
