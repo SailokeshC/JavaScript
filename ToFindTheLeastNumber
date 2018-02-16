@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Finding Least Number</h1>
+  <script src="leastnumber.js></script> //Linking the javascript file named as 'leastnumber.js'
+</body>
+</html>
+
+//JavaScript to finding the greatest number
+var a;
+var b;
+a=10;
+b=15;
+if(a<b)
+{
+  	console.log('The Least number is: '+a);
+}
+else
+{
+   	console.log('The Least number is: '+b);
+}
+
