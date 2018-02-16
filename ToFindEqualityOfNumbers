@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Finding Equality of Numbers</h1>
+  <script src="equality.js></script> //Linking the javascript file named as 'equality.js'
+</body>
+</html>
+
+//JavaScript to find the equality and not equality of numbers
+var a=10;
+var b=15;
+var c=25;
+var d=25;
+if(a==b)
+{
+  	console.log('Both a and b are equal');
+}
+else
+{
+   	console.log('Both a and b are not equal');
+}
+if(c==d)
+{
+console.log('Both c and d are equal');
+}
+else
+
+{
+console.log('Both c and d are not equal');
+}
+
+
+Output:
+Both a and b are not equal
+Both c and d are equal
