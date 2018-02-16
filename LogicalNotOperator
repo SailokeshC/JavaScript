@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Finding Logical not of Numbers</h1>
+  <script src="logical.js></script> //Linking the javascript file named as 'logicalnot.js'
+</body>
+</html>
+
+//JavaScript to find the equality and not equality of numbers
+
+if(!true)
+{
+  	console.log('The value is false');
+}
+else
+{
+   	console.log('The value is true');
+}
+if(!!true)
+{
+  	console.log('The value is true');
+}
+else
+{
+   	console.log('The value is false');
+}
+//!(true)=false;
+//!(false)=true;
+
+Output:
+The value is true
+The value is true
