@@ -10,7 +10,7 @@
 </body>
 </html>
 
-//JavaScript to finding the greatest number
+//JavaScript for operator precedence
 var a;
 a='hi'+6;
 console.log(typeof a);
