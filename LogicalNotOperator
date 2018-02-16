@@ -10,7 +10,7 @@
 </body>
 </html>
 
-//JavaScript to find the equality and not equality of numbers
+//JavaScript to find the logical not of an operator
 
 if(!true)
 {
