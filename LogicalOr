@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Logical AND</h1>
+  <script src="logicalor.js></script> //Linking the javascript file named as 'logicalor.js'
+</body>
+</html>
+
+//JavaScript to finding the logical AND of a number
+var a="0";
+var b=true;
+c=a||b;
+console.log(c);
+
+Output:
+0
+
+//logical &&: if expl 1 is true, it returns exp1 else exp2
