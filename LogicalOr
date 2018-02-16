@@ -5,12 +5,12 @@
   <meta lang="en">
 </head>
 <body>
-  <h1>Logical AND</h1>
+  <h1>Logical OR</h1>
   <script src="logicalor.js></script> //Linking the javascript file named as 'logicalor.js'
 </body>
 </html>
 
-//JavaScript to finding the logical AND of a number
+//JavaScript to finding the logical OR of a number
 var a="0";
 var b=true;
 c=a||b;
