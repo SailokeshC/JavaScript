@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Finding Strict Equality of Numbers</h1>
+  <script src="strictequality.js></script> //Linking the javascript file named as 'strictequality.js'
+</body>
+</html>
+
+//JavaScript to find the strict equality of numbers
+var a=2;
+var b="2";
+var c=10;
+var d=10;
+if(a===b)
+{
+  	console.log('equal both in value or type');
+}
+else
+{
+   	console.log('not equal either value or in type');
+}
+if(c===d)
+{
+  	console.log('equal both in value or type');
+}
+else
+{
+   	console.log('not equal either value or in type');
+}
+
+Output:
+not equal either value or in type
+equal both in value or type
