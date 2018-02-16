@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Truth and False value of a Number</h1>
+  <script src="truthfalse.js></script> //Linking the javascript file named as 'truthfalse.js'
+</body>
+</html>
+
+//JavaScript to finding the truth and false value of a number
+var a={};
+var b=0;
+if(a)
+{
+  	console.log('The value is True' );
+}
+else
+{
+   	console.log('The value is False');
+}
+if(b)
+{
+  	console.log('The value is True' );
+}
+else
+{
+   	console.log('The value is False');
+}
+
+//True: all numbers, non empty strings and true
+//False: undefined,0,NaN,false," ",' ',null
+
+Output:
+The value is True
+The value is False
