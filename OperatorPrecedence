@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Operator Precedence</h1>
+  <script src="opepre.js></script> //Linking the javascript file named as 'opepre.js'
+</body>
+</html>
+
+//JavaScript to finding the greatest number
+var a;
+a='hi'+6;
+console.log(typeof a);
+console.log(a);
+a='6'+6;
+console.log(typeof a);
+console.log(a);
+a=6+6;
+console.log(typeof a);
+console.log(a);
+a=true+true;
+console.log(typeof a);
+console.log(a);
+a=6-3;
+console.log(typeof a);
+console.log(a);
+a='hi'-3;
+console.log(typeof a);
+console.log(a);
+a='12'-9;
+console.log(typeof a);
+console.log(a);
+
+Output:
+string
+hi6
+string
+66
+number
+12
+number
+2
+number
+3
+number
+null
+number
+3
+
+/*arithmetic: add -> string,number
+sub,mul,div,mul,mod -> number */
+
+/*order of exe: () -> * / -> + - 
