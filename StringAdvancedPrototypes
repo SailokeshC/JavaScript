@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Type Of</h1>
+  <script src="typeof.js></script> //Linking the javascript file named as 'advancedstring.js'
+</body>
+</html>
+
+//JavaScript for Advanced String Operations
+
+var a="sai lokesh"
+console.log(a.repeat(5));
+/*var b="";
+var num;
+for(i=0;i<5;i++)
+{
+	b=b+a;
+}
+console.log(b);
+*/
+String.prototype.myRepeat=function(num) //prototype inherits the properties
+{
+  var b=this; //this keyword references the main string i,e "sai lokesh"
+  var c="";
+  for(i=0;i<num;i++)
+  {
+   c=c+b; 
+  }
+  return c;
+}
+console.log(a.myRepeat(2));
+
+Output:
+sai lokeshsai lokeshsai lokeshsai lokeshsai lokesh
+sai lokeshsai lokesh
