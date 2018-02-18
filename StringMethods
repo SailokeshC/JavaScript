@@ -5,7 +5,7 @@
   <meta lang="en">
 </head>
 <body>
-  <h1>Type Of</h1>
+  <h1>String Methods</h1>
   <script src="stringmethods.js></script> //Linking the javascript file named as 'stringmethods.js'
 </body>
 </html>
