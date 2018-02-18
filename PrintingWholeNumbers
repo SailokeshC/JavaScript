@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Type Of</h1>
+  <script src="wholenum.js></script> //Linking the javascript file named as 'wholenum.js'
+</body>
+</html>
+
+//JavaScript for printing first 10 whole numbers
+
+var i;
+for(i=0;i<=10;i++)
+{
+ console.log(i); 
+}
+
+Output:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
