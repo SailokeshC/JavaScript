@@ -5,7 +5,7 @@
   <meta lang="en">
 </head>
 <body>
-  <h1>Type Of</h1>
+  <h1>Printing Whole Numbers</h1>
   <script src="wholenum.js></script> //Linking the javascript file named as 'wholenum.js'
 </body>
 </html>
