@@ -5,7 +5,7 @@
   <meta lang="en">
 </head>
 <body>
-  <h1>Type Of</h1>
+  <h1>Printing First 50 Odd Numbers</h1>
   <script src="evennum.js></script> //Linking the javascript file named as 'evennum.js'
 </body>
 </html>
