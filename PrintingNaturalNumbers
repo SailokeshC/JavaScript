@@ -5,7 +5,7 @@
   <meta lang="en">
 </head>
 <body>
-  <h1>Type Of</h1>
+  <h1>Printing Natural Numbers</h1>
   <script src="naturalnum.js></script> //Linking the javascript file named as 'naturalnum.js'
 </body>
 </html>
