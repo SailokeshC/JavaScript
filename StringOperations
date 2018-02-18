@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>String operations</h1>
+  <script src="stringope.js></script> //Linking the javascript file named as 'stringope.js'
+</body>
+</html>
+
+//JavaScript to find the string operations
+var a="sai lokesh";
+console.log(a.length);
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+console.log(a.repeat(5));
+console.log(a.indexOf(' '));
+console.log(a.indexOf('k'));
+console.log(a.indexOf('s'));
+console.log(a.lastIndexOf('s'));
+var b="I am a masters student";
+console.log(b.split(' '));
+var c ="           I am a masters student";
+console.log(c);
+console.log(c.trim());
+console.log(c.trimRight());
+console.log(b.substring(3,13));
+var d=a+b;
+console.log(d);
+
+
+Output:
+10
+SAI LOKESH
+sai lokesh
+sai lokeshsai lokeshsai lokeshsai lokeshsai lokesh
+3
+6
+0
+8
+["I","am","a","masters","student"]
+           I am a masters student
+I am a masters student
+           I am a masters student
+m a master
+sai lokeshI am a masters student
