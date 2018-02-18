@@ -22,7 +22,7 @@ for(i=0;i<5;i++)
 }
 console.log(b);
 */
-String.prototype.myRepeat=function(num) //prototype inherits the properties
+String.prototype.myRepeat=function(num) //prototype inherits the properties. Here myRepeat method is added to all strings
 {
   var b=this; //this keyword references the main string i,e "sai lokesh"
   var c="";
@@ -33,7 +33,15 @@ String.prototype.myRepeat=function(num) //prototype inherits the properties
   return c;
 }
 console.log(a.myRepeat(2));
+String.prototype.myConcat=function(str2)
+{
+  str2="I am a masters student";
+  return this+str2;
+}
+console.log(a.myConcat());
+
 
 Output:
 sai lokeshsai lokeshsai lokeshsai lokeshsai lokesh
 sai lokeshsai lokesh
+sai lokeshI am a masters student
