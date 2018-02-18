@@ -5,7 +5,7 @@
   <meta lang="en">
 </head>
 <body>
-  <h1>Type Of</h1>
+  <h1>String Advanced Prototypes</h1>
   <script src="advancedstring.js></script> //Linking the javascript file named as 'advancedstring.js'
 </body>
 </html>
