@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Type Of</h1>
+  <script src="stringmethods.js></script> //Linking the javascript file named as 'stringmethods.js'
+</body>
+</html>
+
+//JavaScript for String Method Operations
+
+var a="sai lokesh";
+console.log(a);
+console.log(a.charAt(0));
+console.log(a.charAt(9));
+console.log(a.charCodeAt(9));
+console.log(a.concat('I am a masters student'));
+console.log(a.endsWith('l'));
+console.log(a.endsWith('h'));
+console.log(a.endsWith('esh'));
+console.log(a.includes('k'));
+console.log(a.includes('z'));
+console.log(a.indexOf('k'));
+console.log(a.lastIndexOf('h'));
+console.log(a.toLowerCase());
+console.log(a.toUpperCase());
+
+Output:
+sai lokesh
+s
+h
+104
+sai lokeshI am a masters student
+false
+true
+true
+true
+false
+6
+9
+sai lokesh
+SAI LOKESH
