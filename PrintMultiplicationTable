@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Multiplying Table</h1>
+  <script src="mul.js></script> //Linking the javascript file named as 'mul.js'
+</body>
+</html>
+
+//JavaScript for printing 10 multiplication table
+
+var num=10;
+var i;
+for(i=1;i<=10;i++)
+{
+  console.log( num +'x'+ i +'='+ (num*i));
+}
+
+Output:
+10x1=10
+10x2=20
+10x3=30
+10x4=40
+10x5=50
+10x6=60
+10x7=70
+10x8=80
+10x9=90
+10x10=100
