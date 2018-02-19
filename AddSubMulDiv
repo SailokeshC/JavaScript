@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Difference between Add,Sub,Mul and Div</h1>
+  <script src="asmd.js></script> //Linking the javascript file named as 'asmd.js'
+</body>
+</html>
+
+//JavaScript to know the Difference between Add,Sub,Mul and Div
+
+//Addition
+var a=1+2;
+console.log(a);
+console.log(typeof a);
+var b='sai'+'lokesh';
+console.log(b);
+console.log(typeof b);
+var c='1'+2;
+console.log(c);
+console.log(typeof c);
+
+Output:
+3
+number
+sailokesh
+string
+12
+string
+
+//Substraction
+var a=1-2;
+console.log(a);
+console.log(typeof a);
+var b='sai'-'lokesh';
+console.log(b);
+console.log(typeof b);
+var c='1'-2;
+console.log(c);
+console.log(typeof c);
+
+Output:
+-1
+number
+null
+number
+-1
+number
+
+//Multiplication
+var a=1*2;
+console.log(a);
+console.log(typeof a);
+var b='sai'*'lokesh';
+console.log(b);
+console.log(typeof b);
+var c='1'*2;
+console.log(c);
+console.log(typeof c);
+
+Output:
+2
+number
+null
+number
+2
+number
+
+//Division
+var a=1/2;
+console.log(a);
+console.log(typeof a);
+var b='sai'/'lokesh';
+console.log(b);
+console.log(typeof b);
+var c='1'/2;
+console.log(c);
+console.log(typeof c);
+
+Output:
+0.5
+number
+null
+number
+0.5
+number
