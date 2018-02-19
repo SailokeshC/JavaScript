@@ -20,6 +20,16 @@ console.log(c);
 }
 sai(1,2,3);
 sai(10,11,12);
+function mul(a,b,c)
+{
+console.log('multiplication function');
+console.log('mul before return');
+return (a*b*c);
+console.log('mul after return');
+}
+
+var result=mul(10,11,12);
+console.log(result	);
 
 Output:
 1
@@ -28,3 +38,6 @@ Output:
 10
 11
 12
+multiplication function
+mul before return
+1320
