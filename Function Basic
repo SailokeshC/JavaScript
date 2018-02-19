@@ -1,0 +1,25 @@
+//HTML
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Function Basic</title> 
+</head>
+<body>  
+<script src="func.js"></script> //Linkiing the javascript file named "func.js"
+</body>
+</html>
+
+//JS for writing Basic function.
+function sai()
+{
+console.log(1);
+console.log(2);
+console.log(3);
+}
+sai();
+
+Output:
+1
+2
+3
