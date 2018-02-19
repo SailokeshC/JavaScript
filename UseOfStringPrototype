@@ -1,0 +1,40 @@
+//HTML
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Use Of String Prototypes</title> 
+</head>
+<body>  
+<script src="stringprototype.js"></script> //Linkiing the javascript file named "stringprototype.js"
+</body>
+</html>
+
+//JS for using string prototypes
+var a="hello world";
+console.log(a.indexOf('l'));
+console.log(a.lastIndexOf('l'));
+
+console.log('-----------');
+
+String.prototype.saiLastIndexOf=function(char)
+{
+  var str=this;
+  result=1;
+  for(i=0;i<str.length;i++)
+  {
+    if(str.charAt(i)==char)
+    {
+      result=i;
+  
+    }
+  }
+  return result;
+};
+console.log(a.saiLastIndexOf('l'));
+
+Output:
+2
+9
+-----------
+9
