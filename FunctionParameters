@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Passing Function parameters</h1>
+  <script src="funcpar.js></script> //Linking the javascript file named as 'funcpara.js'
+</body>
+</html>
+
+//JavaScript for passing function parameters
+
+function sai(a,b,c)
+{
+console.log(a);
+console.log(b);
+console.log(c);
+}
+sai(1,2,3);
+sai(10,11,12);
+
+Output:
+1
+2
+3
+10
+11
+12
