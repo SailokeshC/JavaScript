@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Array Push Pop Operations</h1>
+  <script src="arraypushpop.js></script> //Linking the javascript file named as 'arraypushpop.js'
+</body>
+</html>
+
+//JavaScript for Array Push Pop Operations
+var a=['hi','how','are','you','doing'];
+console.log(a);
+console.log(a.push('sai')); //push sai at the end of array a
+console.log(a);
+console.log(a.unshift('aaaaa')); //add an element at starting of array
+console.log(a);
+console.log(a.pop());//delete an element at end of an array
+console.log(a);
+console.log(a.shift());//delete an element at start of an array
+console.log(a);
+console.log(a[0]);
+console.log(a[1]);
+console.log(a[2]);
+console.log(a[3]);
+console.log(a[4]);
+var b=['apple','orange','pineapple','peach','grapes'];
+var c=a.concat(b);
+console.log(c);
+console.log(c.indexOf('peach'));
+
+for(var i=0;i<a.length;i++)
+{
+  console.log(a[i]);
+}
+console.log('-------------------');
+for(var i=a.length-1;i>=0;i--)
+{
+  console.log(a[i]);
+}
+
+
+Output:
+["hi","how","are","you","doing"]
+6
+["hi","how","are","you","doing","sai"]
+7
+["aaaaa","hi","how","are","you","doing","sai"]
+sai
+["aaaaa","hi","how","are","you","doing"]
+aaaaa
+["hi","how","are","you","doing"]
+hi
+how
+are
+you
+doing
+["hi","how","are","you","doing","apple","orange","pineapple","peach","grapes"]
+8
+hi
+how
+are
+you
+doing
+-------------------
+doing
+you
+are
+how
+hi
