@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Destructuring an Object</h1>
+  <script src="destructure.js></script> //Linking the javascript file named as 'destructure.js'
+</body>
+</html>
+
+//JavaScript for Destructuring an Object
+var obj1=[b=1,c=2,d=3];
+var [a,b,c]=obj1; 
+a; //undefined
+b; //2
+c; //3
+d; //error: d is not defined
+
+var obj2=[1,2,3,4,5];
+var [a,b,...rest]=obj2;
+a; //1
+b; //2
+rest; //[3,4,5]
