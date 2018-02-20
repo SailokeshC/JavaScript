@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Array Basic Operations</h1>
+  <script src="arraybasic.js></script> //Linking the javascript file named as 'arraybasic.js'
+</body>
+</html>
+
+//JavaScript for Basic Array Operations
+
+var a=[];
+var b=new Array();
+console.log(a);
+console.log(b);
+var c=[0,1,2,3,4,5];
+console.log(c);
+var d=['hi',1,10,'new',10.00,-1];
+console.log(d);
+var e=[23,'hello',true,undefined,null,{},[1,2,3],function(a,b){return a*b;}];
+console.log(e);
+var f=new Array(6,7,8,9,10);
+console.log(f);
+var g=new Array(4); //Array g with length 4 is created
+console.log(g);
+console.log(typeof g);
+console.log(Array.isArray(a));
+console.log(Array.from('hello world'));
+
+var h=['hi'];
+var i=[' sai'];
+var j=[' lokesh'];
+var k=h.concat(i,j);
+console.log(k);
+var l=k.entries();
+console.log(l.next().value);
+console.log(l.next().value);
+console.log(l.next().value);
+console.log(l.next().value);
+
+
+Output:
+[]
+[]
+[0,1,2,3,4,5]
+["hi",1,10,"new",10,-1]
+[23,"hello",true,null,null,{},[1,2,3],null]
+[6,7,8,9,10]
+[null,null,null,null]
+object
+true
+["h","e","l","l","o"," ","w","o","r","l","d"]
+["hi"," sai"," lokesh"]
+[0,"hi"]
+[1," sai"]
+[2," lokesh"]
+undefined
+
