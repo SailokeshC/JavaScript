@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Sorting Operation</h1>
+  <script src="sortope.js></script> //Linking the javascript file named as 'sortope.js'
+</body>
+</html>
+
+//JavaScript for Basic Sorting Operations
+var arr =['hi','how','are','you','doing','today'];
+console.log(arr);
+var arr2 = arr.slice(2,4);
+console.log(arr2);
+var arr3=['I am','a','masters','student'];
+console.log(arr3);
+console.log(arr3.splice(1,2));
+console.log(arr3.splice(0,1));
+console.log(arr3);
+arr3.splice(1,2,'item1','item2','item3','item4');
+console.log(arr3);
+arr3.splice(2,2,'sai','lokesh');
+console.log(arr3); 
+
+Output:
+["hi","how","are","you","doing","today"]
+["are","you"]
+["I am","a","masters","student"]
+["a","masters"]
+["I am"]
+["student"]
+["student","item1","item2","item3","item4"]
+["student","item1","sai","lokesh","item4"]
