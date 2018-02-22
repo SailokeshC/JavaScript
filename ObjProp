@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Object Properties</h1>
+  <script src="objprop.js></script> //Linking the javascript file named as 'objprop.js'
+</body>
+</html>
+
+//JavaScript for Object Properties
+var obj={
+  name:'sai',
+  age:'20',
+  address: {
+  street:'hemlock',
+  floor:'215',
+  state:'IL',
+  zip:'61704'
+  },
+skills:['Java','html','CSS','dot net'],
+isEmployed:'true'
+}
+console.log(obj);
+console.log(obj.name);
+console.log(obj.skills);
+console.log(obj.address);
+console.log(obj.address.street);
+console.log(obj.address.zip);
+console.log(obj.skills[0]);
+console.log(obj.skills[1]);
+console.log(obj.skills[2]);
+delete obj.isEmployed;
+console.log(obj);
+Object.defineProperty(obj,'lastname',
+                      {
+  value:'loki',
+  writable:false, //true-it can be modified
+  configurable:false,//true:can delete
+  enumerable:true//in a loop can I read the property key or not
+})
+console.log(obj.lastname);
+
+Output:
+{"name":"sai","age":"20","address":{"street":"hemlock","floor":"215","state":"IL","zip":"61704"},"skills":["Java","html","CSS","dot net"],"isEmployed":"true"}
+sai
+["Java","html","CSS","dot net"]
+{"street":"hemlock","floor":"215","state":"IL","zip":"61704"}
+hemlock
+61704
+Java
+html
+CSS
+{"name":"sai","age":"20","address":{"street":"hemlock","floor":"215","state":"IL","zip":"61704"},"skills":["Java","html","CSS","dot net"]}
+loki
