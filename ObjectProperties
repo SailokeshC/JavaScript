@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Object Properties</h1>
+  <script src="objprop.js></script> //Linking the javascript file named as 'objprop.js'
+</body>
+</html>
+
+//JavaScript for Object Properties
+var obj={}
+console.log(typeof obj);
+var p1={name:'sai',age:25};
+console.log(p1);
+console.log(typeof p1);
+console.log(p1.name);
+console.log(p1['name']);
+console.log(p1.age);
+console.log(p1['age']);
+p1.salary=5;
+console.log(p1);
+p1['isEmployed']=true;
+console.log(p1);
+delete p1.name;
+console.log(p1);
+delete p1['age'];
+console.log(p1);
+
+Output:
+object
+{"name":"sai","age":25}
+object
+sai
+sai
+25
+25
+{"name":"sai","age":25,"salary":5}
+{"name":"sai","age":25,"salary":5,"isEmployed":true}
+{"age":25,"salary":5,"isEmployed":true}
+{"salary":5,"isEmployed":true}
