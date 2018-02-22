@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Difference between Call By Value and Call By Reference</h1>
+  <script src="callby.js></script> //Linking the javascript file named as 'callby.js'
+</body>
+</html>
+
+//JavaScript to know the Difference between Call By value and Call By reference
+console.log('-----Call By Value-----');
+function callbyvalue(a,b){
+  console.log('Inside call by value method');
+  a=50;
+  b=60;
+  console.log('var a: '+a+' var b: '+b);
+}
+let a=5;
+let b=6;
+console.log('Before call by value method');
+console.log('var a: '+a+' var b: '+b);
+callbyvalue(a,b);
+
+console.log('After call by value method');
+console.log('var a: '+a+' var b: '+b); 
+
+console.log('-----Call By Reference-----');
+ function callbyvalue(Obj){
+  console.log('Inside call by value method');
+  Obj.a=10;
+    console.log(Obj);
+}
+let Obj={a:1};
+
+console.log('Before call by value method');
+console.log(Obj);
+callbyvalue(Obj);
+
+console.log('After call by value method');
+console.log(Obj);
+
+Output:
+-----Call By Value-----
+Before call by value method
+var a: 5 var b: 6
+Inside call by value method
+5
+After call by value method
+var a: 5 var b: 6
+-----Call By Reference-----
+Before call by value method
+{"a":1}
+Inside call by value method
+{"a":10}
+After call by value method
+{"a":10}
