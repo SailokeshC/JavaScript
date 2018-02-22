@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Factorial using Recursion</h1>
+  <script src="factrecursion.js></script> //Linking the javascript file named as 'factrecursion.js'
+</body>
+</html>
+
+//JavaScript for finding factorial of numbers using recursion
+function factorial(num)
+{
+  if(num==0 || num==1)
+  {
+    return 1;
+  }
+  if(num>1)
+  {
+    return num*factorial(num-1);
+  }
+}
+
+console.log(factorial(5));
+
+Output:
+120
