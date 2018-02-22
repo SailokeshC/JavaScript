@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Swapping two values using temporary variable</h1>
+  <script src="swap.js></script> //Linking the javascript file named as 'swap.js'
+</body>
+</html>
+
+//JavaScript to Swapp two values using temporary variable
+var a=10;
+var b=20;
+var temp;
+temp=a;
+a=b;
+b=temp;
+console.log('a is: '+a);
+console.log('b is: '+b);
+
+Output:
+a is: 20
+b is: 10
