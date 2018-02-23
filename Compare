@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Object Compare</h1>
+  <script src="objcomp.js></script> //Linking the javascript file named as 'objcomp.js'
+</body>
+</html>
+
+//JavaScript for object comparision
+var a='hello';
+var b='hello';
+console.log(a===b);
+var c=true;
+var d=true;
+console.log(c===d);
+var e=undefined;
+var f=undefined;
+console.log(e===f);
+var g=10;
+var h=10;
+console.log(g===h);
+var i=null;
+var j=null;
+console.log(i===j);
+var k=[];
+var l=[];
+console.log(k===j);
+var m='sai';
+var n=m;
+console.log(n===m);
+var o={name:'sai',age:24};
+var p=o;
+console.log(p);
+p.name='loki';
+console.log(p);
+console.log(o);
+console.log(p==o);
+console.log(p===o);
+var q={name:'toyota',model:'camry'};
+var r={name:'toyota',model:'camry'};
+console.log(q===r);
+var s={name:'sai',age:24};
+function func(param1)
+{
+  param1.city='chicago';
+}
+console.log(s);
+func(s);
+console.log(s);
+
+//primitive- string,boolean,number,undefined,null
+//non-primitive- object,array
+//when comparing object, use Deep compare. When comparing memory references, use shallow compare (==)
+
+var a1={name:'sai',age:24};
+var b1={age:25};
+var c1={city:'Chicago'};
+var d1={age:20};
+Object.assign(d1,a1,b1,c1);
+console.log(d1);
+
+Output:
+true
+true
+true
+true
+true
+false
+true
+{"name":"sai","age":24}
+{"name":"loki","age":24}
+{"name":"loki","age":24}
+true
+true
+false
+{"name":"sai","age":24}
+{"name":"sai","age":24,"city":"chicago"}
+{"age":25,"name":"sai","city":"Chicago"}
