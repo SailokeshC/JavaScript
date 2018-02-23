@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta chaset="UTF-8">
+  <meta lang="en">
+</head>
+<body>
+  <h1>Get and Set functions</h1>
+  <script src="getset.js></script> //Linking the javascript file named as 'getset.js'
+</body>
+</html>
+
+//JavaScript for using Get and Set functions
+var obj={
+  FirstName:'Patt',
+  LastName:'Justin',
+  age:25,
+  get FullName(){
+return this.FirstName + ' '+this.LastName;
+},
+set FullName (name) {
+        var words = name.toString().split(' ');
+        this.FirstName = words[0] || '';
+        this.LastName = words[1] || '';
+}
+};
+obj.FullName='Sai Lokesh';
+console.log(obj.FirstName);
+console.log(obj.LastName);
+
+Output:
+Sai
+Lokesh
